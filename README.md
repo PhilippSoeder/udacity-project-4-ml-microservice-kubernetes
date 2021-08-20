@@ -38,8 +38,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ### Testing `app.py`
 
-1. Run `app.py`
-2. Run:  `./make_prediction.sh`
+1. Run:  `./make_prediction.sh`
 
 ### Kubernetes Steps
 
