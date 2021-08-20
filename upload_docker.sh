@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=phlppsdr/udacity_app
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username phlppsdr
+docker tag udacity_app $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
