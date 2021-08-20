@@ -25,7 +25,9 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ## Setup the Environment
 
-* Create a virtualenv and activate it
+* Create a virtualenv and activate it 
+  * Use `make setup` to create a python virtualenv
+  * Use `source ~/.devops/bin/activate` to activate the virtualenv
 * Run `make install` to install the necessary dependencies
 
 ### Running `app.py`
@@ -33,6 +35,11 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
+
+### Testing `app.py`
+
+1. Run `app.py`
+2. Run:  `./make_prediction.sh`
 
 ### Kubernetes Steps
 
