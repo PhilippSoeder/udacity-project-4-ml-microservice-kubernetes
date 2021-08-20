@@ -1,1 +1,7 @@
-<paste log output from Kubernetes-mediated prediction, here>
+pod/udacityapp created
+NAME         READY   STATUS              RESTARTS   AGE
+udacityapp   0/1     ContainerCreating   0          0s
+pod/udacityapp condition met
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
