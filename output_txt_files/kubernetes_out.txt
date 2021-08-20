@@ -1,3 +1,4 @@
+# Terminal 1: ./run_kubernetes.sh
 pod/udacityapp created
 NAME         READY   STATUS              RESTARTS   AGE
 udacityapp   0/1     ContainerCreating   0          0s
@@ -5,3 +6,11 @@ pod/udacityapp condition met
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
+
+# Terminal 2: ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
